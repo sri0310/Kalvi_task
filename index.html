@@ -33,10 +33,14 @@ body {
 .choices label,
 input[type="radio"] {
   cursor: pointer;
+	 required="required";
+
 }
 
 input[type="radio"] {
   margin-right: 8px;
+	 required="required";
+
 }
 
 .view-results {
@@ -93,7 +97,7 @@ function returnScore() {
   <li>
     <h4>2.Full form of CSS?</h4>
     <ul class="choices">
-      <li><label><input type="radio" name="question1" value="A"><span>cat style sheets</span></label></li>
+      <li><label><input type="radio" name="question1" value="A" required><span>cat style sheets</span></label></li>
       <li><label><input type="radio" name="question1" value="B"><span>copy style sheets</span></label></li>
       <li><label><input type="radio" name="question1" value="C"><span>Cascading style sheets</span></label></li>
       <li><label><input type="radio" name="question1" value="D"><span>company style sheets</span></label></li>
